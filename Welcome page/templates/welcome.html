@@ -7,10 +7,12 @@
     </head>
     <body>
         <h1>Welcome To My World</h1>
+
         <div class="welcome-message">
             <p>This is my profile page</p>
             <p>Feel free to explore and learn more about me</p>
         </div>
+
         <div class="about-me">
             <h2>About me</h2>
             <ul>
@@ -26,21 +28,10 @@
                 <li>
                     I have experince in C++, Java, Python, Html and CSS
                 </li>
-                <li>
-                    Contact me:
-                    <ul>
-                        <li>
-                            My phone number: +20 10 2729 3249
-                        </li>
-                        <li>
-                            My email: amrabdullah071@gmail.com
-                        </li>
-                        <li>
-                            My Github: <a href="https://github.com/Amr91941" target="_blank">Amr91941</a>
-                        </li>
-                    </ul>
-                </li>
             </ul>
         </div>
+
+        <div class="contact-link">
+            <a href="{{ url_for('contact') }}"><h2>Contact me</h2></a>
     </body>
 </html>
